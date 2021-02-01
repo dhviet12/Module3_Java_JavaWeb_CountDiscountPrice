@@ -15,10 +15,13 @@
   <form method="post" action="/display-discount">
     <label>Product Description</label><br/>
     <input type="text" placeholder="description"/><br/>
+    <br>
     <label>List Price</label><br/>
     <input type="text" name="price" placeholder="price"/><br/>
+    <br>
     <label>Discount Percent</label><br/>
     <input type="text" name="percent" placeholder="%"/><br/>
+    <br>
     <input type="submit" id="submit" value="Count price"/>
   </form>
   </body>
